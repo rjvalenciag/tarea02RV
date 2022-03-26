@@ -11,3 +11,8 @@ def home():
 @site.route("/about")
 def about():
     return render_template("/main/about.html")
+
+
+@site.route("/social")
+def social():
+    return render_template("/main/social.html")

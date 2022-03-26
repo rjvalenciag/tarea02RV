@@ -134,11 +134,11 @@
     <nav class="navbar">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">HOME</a>
+                <a class="nav-item nav-link" href="{{ url_for('site.home') }}">HOME</a>
                 <a class="nav-item nav-link" href="#">STATS</a>
-                <a class="nav-item nav-link" href="#">ABOUT</a>
+                <a class="nav-item nav-link" href="{{ url_for('site.about') }}">ABOUT</a>
                 <a class="nav-item nav-link" href="#">CONTACT</a>
-                <a class="nav-item nav-link" href="#">SOCIAL</a>
+                <a class="nav-item nav-link" href="{{ url_for('site.social') }}">SOCIAL</a>
             </div>
         </div>
     </nav>
